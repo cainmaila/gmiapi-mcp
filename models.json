@@ -1,0 +1,49 @@
+{
+  "$comment": "每個模型的預設 payload 參數。優先順序：這裡 < extra_params < generate_image 的明確欄位。gpt-image 系列務必指定 quality，quality=auto 或省略會以最高級距計費。",
+  "gpt-image-2.6-sunburst-generate": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "complexity": "low",
+    "n": 1,
+    "output_format": "png",
+    "background": "auto",
+    "moderation": "auto"
+  },
+  "gpt-image-2-generate": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "output_format": "png"
+  },
+  "seedream-4-0-250828": {
+    "size": "2048x2048",
+    "watermark": false
+  },
+  "gpt-image-2.6-flare-generate": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "complexity": "low",
+    "n": 1,
+    "output_format": "png",
+    "background": "auto",
+    "moderation": "auto"
+  },
+  "gpt-image-2.6-sunburst-edit": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "complexity": "low",
+    "n": 1,
+    "output_format": "png",
+    "background": "auto",
+    "moderation": "auto"
+  },
+  "gpt-image-2.6-flare-edit": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "complexity": "low",
+    "n": 1,
+    "output_format": "png",
+    "background": "auto",
+    "moderation": "auto"
+  }
+}
